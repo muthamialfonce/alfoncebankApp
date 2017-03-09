@@ -1,6 +1,18 @@
-#How to Install:
-1. on Windows
-	-Download the zipped folder
+## Installation
+
+* `git clone https://github.com/muthamialfonce/alfoncebankApp.git`
+* `cd alfoncebankApp`
+* `composer install`
+* `php artisan key:generate`
+* copy .env.example to .env
+* edit .env
+    * set `DB_DATABASE="YOUR DATABASE NAME"`
+    * set `DB_USERNAME="YOUR DATABASE USERNAME"`
+    * set `DB_PASSWORD="YOUR DATABASE PASSWORD"`
+* `php artisan migrate`
+* `php artisan serve`
+* You can open alfoncebankApp/public and start using the application, make some deposits first.
+
 
 
 
