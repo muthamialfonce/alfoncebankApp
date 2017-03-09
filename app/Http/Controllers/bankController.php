@@ -136,7 +136,7 @@ class bankController extends Controller
         //fetching current amount from DB
         $currentAmount= DB::table('banks')->value('amount');
         if ($withdraw <= 0 ) {
-            Session::flash('message', 'the amount is less tha minimal withdraw amount required'); 
+            Session::flash('message', 'Please enter a valid amount'); 
             Session::flash('alert-class', 'alert-danger'); 
         }elseif ($withdraw > 20000) {
            Session::flash('message', 'Sorry, Transaction not successfull, the maximum withdrawal per transction is $20000'); 
