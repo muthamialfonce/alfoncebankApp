@@ -3,15 +3,18 @@
 * `git clone https://github.com/muthamialfonce/alfoncebankApp.git`
 * `cd alfoncebankApp`
 * `composer install`
-* `php artisan key:generate`
 * copy .env.example to .env
 * edit .env
     * set `DB_DATABASE="YOUR DATABASE NAME"`
     * set `DB_USERNAME="YOUR DATABASE USERNAME"`
     * set `DB_PASSWORD="YOUR DATABASE PASSWORD"`
+* `Then run the following commands`
+* `php artisan key:generate`	
 * `php artisan migrate`
 * `php artisan serve`
 * You can open alfoncebankApp/public and start using the application, make some deposits first.
+*have included a test document word file herewith too.
+*Incase of any difficulties contact me
 
 
 
