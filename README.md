@@ -1,4 +1,4 @@
-How to Install:
+#How to Install:
 1. on Windows
 	-Download the zipped folder
 
